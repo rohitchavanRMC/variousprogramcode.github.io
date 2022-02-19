@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+footer{
+    text-align: right;
+    text-decoration: solid;
+    color: red;
+    font-size: 20px;
+    margin-right: 50px;
+}
+h2{
+    color: yellow;
+    text-align: center;
+    border: outset red;
+    background-color: brown;
+    width: 100%;
+   
+}
+h2:hover{
+    color: white;
+    cursor: default;
+  }
+
+.container{
+    margin-top: 5px;
+    height: 100vh;
+    background-color: white;
+}  
+
+
+
+a{
+    text-decoration: none;
+}
+
+nav ul{
+    text-align: center;
+    padding-top: 12px; 
+}
+
+nav li{
+    display: inline;
+    font-size: 20px;
+    margin: 8px;
+    background-color: black;
+    color: white;
+    padding-inline: 20px;
+    border: yellow solid 2px;
+        
+}
+
+
+hr{
+    margin-top: 10px;
+}
+
+
+.r-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+  }
+
+   
+  .r-item {
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 5px;
+    margin: 16px;
+    
+  }
+
+  .r-item img {
+    margin-top: 5px;
+    vertical-align: middle;
+    width: 100%;
+    
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .r-item {
+        flex: 100%;
+        max-width: 100%;
+        
+        
+      }
+
+      .r-item img {
+        height: 70%;
+
+        
+      }
+      .r-item p {
+        font-size: 5vw;
+
+        
+      }
+
+      nav ul li{
+          font-size: 5vw;
+      }
+      h2,h3{
+        font-size: 5vw;
+      }
+      marquee
+      {
+          font-size: 3vw;
+      }
+     
+      
+  }
+
+
+  .grid-item :hover{
+      cursor: pointer;
+  }
